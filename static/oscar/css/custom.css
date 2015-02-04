@@ -166,3 +166,10 @@ color:white;
 .btn:hover, .btn:focus {
 color:white;
 }
+.banner {
+color: #fff;
+}
+.banner:hover {
+color: #fff;
+text-decoration: none;
+}
