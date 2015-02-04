@@ -1,0 +1,71 @@
+{% load currency_filters %}
+{% load category_tags %}
+{% load i18n %}
+{% load staticfiles %}
+
+<head><link rel="stylesheet" type="text/css" href="{% static "oscar/css/slider_format.css" %}" /></head>
+  <div class="windows_dashboard windows_clearfix" style="
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+">
+    <ul class="tiles" style="
+    margin-left: 0px;
+">
+      <div class="col1 windows_clearfix">
+        <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+          <div><p>Vegetables</p></div>
+          <div><p>Fresh from the farms!</p></div>
+        </li>
+        <li class="tile tile-small tile tile-2 slideTextRight" data-page-type="s-page" data-page-name="random-restored-page">
+          <div><p>Fruits</p></div>
+        </li>
+        <li class="tile tile-small last tile-3" data-page-type="r-page" data-page-name="random-r-page">
+<div><p >Crockery</p></div>
+        </li>
+        <li class="tile tile-big tile-4 fig-tile" data-page-type="r-page" data-page-name="random-r-page">
+          <figure>
+            <img src="static/oscar/images/blue.jpg"/>
+            <figcaption class="tile-caption caption-left">House Hold</figcaption>
+          </figure>
+        </li>
+      </div>
+
+      <div class="col2 windows_clearfix">
+        <li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+          <div><p><span class="icon-cloudy"></span>Dairy Products</p></div>
+        </li>
+        <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
+          <div><p><span class="icon-skype"></span>Night Out</p></div>
+          <div><p>Make a Call</p></div>
+        </li>
+        <li class="tile tile-small tile-7 rotate3d rotate3dX" data-page-type="r-page" data-page-name="random-r-page">
+          <div class="faces">
+            <div class="front"><span class="icon-picassa"></span></div>
+            <div class="back"><p>Frozen</p></div>
+          </div>
+        </li>
+        <li class="tile tile-small last tile-8 rotate3d rotate3dY" data-page-type="r-page" data-page-name="random-r-page">
+          <div class="faces">
+            <div class="front"><span class="icon-beverage"></span></div>
+            <div class="back"><p>Beverages</p></div>
+          </div>
+        </li>
+      </div>
+
+      <div class="col3 windows_clearfix">
+        <li class="tile tile-2xbig tile-9 fig-tile" data-page-type="custom-page" data-page-name="random-r-page">
+          <figure>
+            <img src="static/oscar/images/summer.jpg"/>
+            <figcaption class="tile-caption caption-bottom">Posters
+            </figcaption></figure>
+        </li>
+        <li class="tile tile-big tile-10" data-page-type="s-page" data-page-name="custom-page">
+          <div><p>Grocery</p></div>
+        </li>
+      </div>
+    </ul>
+  </div>
+</div>
+

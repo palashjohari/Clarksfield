@@ -1,0 +1,25 @@
+{% load i18n %}
+<footer class="footer container-fluid">
+    {% block footer %}
+        {% comment %}
+            Could be used for displaying links to privacy policy, terms of service, etc.
+            We have a CSS class defined:
+                <ul class="footer_links inline">
+                    ...
+                </ul>
+         {% endcomment %}
+    <div class="col-md-8">
+    <ul class="format_footer">
+        <li class="format_footer">support@maroonstreet.com</li>
+        <li class="format_footer">+91-9999715696</li>
+        <li class="format_footer">B-36, Noida</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+    <ul class="format_footer">
+        <li class="format_footer icon-facebook"></li>
+        <li class="format_footer icon-twitter"></li>
+    </ul>
+    </div>
+       {% endblock %}
+</footer>
