@@ -80,7 +80,15 @@ $('#nav .navbar-nav li>a').click(function(){
 
 
 
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
 
+    if (scroll >= 400) {
+        $(".dropdown-menu").addClass("scrolling");
+    } else {
+        $(".dropdown-menu").removeClass("scrolling");
+    }
+});
 
 
 

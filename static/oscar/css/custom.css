@@ -176,8 +176,13 @@ text-decoration: none;
 }
 
 .navbar-nav > li > .dropdown-menu {
-margin-top: 20px;
+margin-top: 18px;
 }
 .mini-basket{
-margin-top: 27px;
+margin-top: 25px;
+}
+
+
+.dropdown-menu.scrolling {
+background-color: #2db4d8;
 }
