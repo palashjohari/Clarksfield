@@ -203,6 +203,7 @@ border: 1px solid #FFFFFF;
 
 input {
 background: transparent !important;
+ border-color: #000;
 }
 
 #navlist li
