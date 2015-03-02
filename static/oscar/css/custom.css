@@ -117,13 +117,8 @@ position: relative; height:auto;
 .contact_footer
 {
 color: #fff;
-float: right;
 
 background: #303336; /* Old browsers */
-height: 100%;
-display: table-cell;
-text-align: center;
-vertical-align: middle;
 }
 .social_footer
 {
@@ -204,4 +199,8 @@ color: #fff;
 
 .dropdown-menu {
 border: 1px solid #FFFFFF;
+}
+
+input {
+background: transparent !important;
 }
