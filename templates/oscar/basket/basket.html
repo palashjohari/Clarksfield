@@ -10,7 +10,7 @@
     {% include "partials/nav_primary2.html" %}
 
 
-{% endblock %}
+
 {% block breadcrumbs %}
     <ul class="breadcrumb">
         <li>
@@ -39,4 +39,5 @@
         'basketURL': '{% url 'basket:summary' %}'
     };
     oscar.basket.init(options);
+{% endblock %}
 {% endblock %}
