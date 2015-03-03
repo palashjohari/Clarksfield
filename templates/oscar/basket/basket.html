@@ -5,7 +5,12 @@
 {% block title %}
     {% trans "Basket" %} | {{ block.super }}
 {% endblock %}
+{% block layout %}
+    {# Top-horizontal bar with account, notifictions, dashboard links #}
+    {% include "partials/nav_primary2.html" %}
 
+
+{% endblock %}
 {% block breadcrumbs %}
     <ul class="breadcrumb">
         <li>
