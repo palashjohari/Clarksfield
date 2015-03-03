@@ -210,5 +210,12 @@ background: transparent !important;
 {
 display: inline;
 list-style-type: none;
-padding-right: 20px;
+padding-right: 50px;
+
+}
+.carousel-caption {
+bottom: 0px;
+}
+.carousel{
+margin: 0px;
 }
