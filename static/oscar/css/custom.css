@@ -224,3 +224,14 @@ bottom: 0px;
 .carousel{
 margin: 0px;
 }
+
+.list-unstyled p {
+color: #fff;
+}
+.btn-block {
+width: 60%;
+}
+.btn {
+margin-left: auto;
+margin-right: auto;
+}
