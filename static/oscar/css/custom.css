@@ -235,3 +235,6 @@ width: 60%;
 margin-left: auto;
 margin-right: auto;
 }
+.searchbutton {
+background-color: transparent;
+}
