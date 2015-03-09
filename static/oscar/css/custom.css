@@ -216,6 +216,7 @@ outline: none;
 display: inline;
 list-style-type: none;
 padding-right: 50px;
+margin-top: 50px;
 
 }
 .carousel-caption {
@@ -237,4 +238,11 @@ margin-right: auto;
 }
 .searchbutton {
 background-color: transparent;
+}
+
+.footer {
+height: 100px;
+}
+.row {
+margin: 0px;
 }
