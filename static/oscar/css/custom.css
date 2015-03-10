@@ -205,7 +205,6 @@ border: 1px solid #FFFFFF;
 
 input {
 background: transparent !important;
-border-color: #000;
 border: 2px;
 }
 input:focus {
@@ -216,8 +215,12 @@ outline: none;
 display: inline;
 list-style-type: none;
 padding-right: 50px;
-margin-top: 50px;
-
+}
+.footer_custom {
+padding-top: 20px;
+}
+li {
+list-style-type: none;
 }
 .carousel-caption {
 bottom: 0px;
