@@ -4,6 +4,8 @@
 {% load thumbnail %}
 {% load i18n %}
 {% load staticfiles %}
+{% load purchase_info_tags %}
+
 
 <ul class="basket-mini-item list-unstyled">
     {% if request.basket.num_lines %}
@@ -22,13 +24,13 @@
                     <div class="col-sm-5">
                         <p><strong><a href="{{ line.product.get_absolute_url }}">{{ line.description }}</a></strong></p>
                     </div>
-                    <div class="col-sm-1 align-center"><strong>{% trans "Qty" %}</strong> {{ line.quantity }}</div>
+                    <div class="col-sm-1 price_color align-center"><strong>{% trans "Qty" %}</strong> {{ line.quantity }}</div>
                     <div class="col-sm-3 price_color align-right">{{ line.unit_price_excl_tax|currency:request.basket.currency }}</div>
                 </div>
             </li>
         {% endfor %}
         <li class="form-group form-actions">
-            <p class="align-right">
+            <p class="align-right total_color">
                 {% if request.basket.is_tax_known %}
                     <small>{% trans "Total:" %} {{ request.basket.total_incl_tax|currency:request.basket.currency }}</small> 
                 {% else %}
