@@ -194,7 +194,9 @@ background-color: #2db4d8;
 .basket-mini-item a {
 color: #fff;
 }
-
+.total_color {
+color: ##33A1DE;
+}
 .price_color {
 color: #fff;
 }
@@ -249,3 +251,9 @@ height: 100px;
 .row {
 margin: 0px;
 }
+.footer_links{
+color: #fff;
+}
+ a:hover, a:focus {
+ color: #fff;
+ }
