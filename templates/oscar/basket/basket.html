@@ -5,24 +5,6 @@
 {% block title %}
     {% trans "Basket" %} | {{ block.super }}
 {% endblock %}
-{% block layout %}
-    {# Top-horizontal bar with account, notifictions, dashboard links #}
-    {% include "partials/nav_primary2.html" %}
-
-<header class="header container-fluid">
-         <header class="header container-fluid">
-        <div class="page_inner">
-            <div class="row-fluid">
-                 <section class="bg-1 sect text-center">
-                    <a href="/" class="banner">
-                    <h1>Maroon Street</h1>
-                                <p class="lead">At Your Doorstep</p></a>
-                </section>
-
-            </div>
-        </div>
-
-    </header>
 
 {% block breadcrumbs %}
     <ul class="breadcrumb">
@@ -34,7 +16,8 @@
 {% endblock %}
 
 {# Hide mini-basket so we don't have two baskets to keep in sync #}
-{% block mini_basket %}{% endblock %}
+{% block mini_basket %}    {% include "partials/nav_primary2.html" %}
+{% endblock %}
 
 {% block headertext %}
     {% trans "Basket" %}
@@ -44,7 +27,7 @@
     {# Use a partial template so that AJAX can be used to re-render basket #}
     {% include 'basket/partials/basket_content.html' %}
 {% endblock content %}
-{% endblock %}
+
 {% block onbodyload %}
     {{ block.super }}
     {# We pass in the URL to send AJAX requests to #}

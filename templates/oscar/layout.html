@@ -19,8 +19,10 @@
 
 {% block layout %}
     {# Top-horizontal bar with account, notifictions, dashboard links #}
-    {% include "partials/nav_primary.html" %}
+                    {% block mini_basket %}
 
+    {% include "partials/nav_primary.html" %}
+                        {% endblock %}
     {# Site logo/title, mini-basket, browse dropdown and searchbox #}
     <header class="header container-fluid">
          <header class="header container-fluid">
