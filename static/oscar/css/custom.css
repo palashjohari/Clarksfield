@@ -207,7 +207,6 @@ border: 1px solid #FFFFFF;
 
 input {
 background: #fff !important;
-opacity: 0.6;
 border: 2px;
 }
 input:focus {
@@ -254,4 +253,19 @@ margin: 0px;
 }
 .footer_links a {
 color: #fff;
+}
+::-webkit-input-placeholder {
+  color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #000;
+}
+:-ms-input-placeholder {
+  color: #000;
+}
+#id_q:focus {
+    color: #000;
 }
