@@ -266,6 +266,11 @@ color: #fff;
 :-ms-input-placeholder {
   color: #000;
 }
+#id_q {
+    width: 210px;
+    border-radius: 15px ;
+
+}
 #id_q:focus {
     color: #000;
 }
