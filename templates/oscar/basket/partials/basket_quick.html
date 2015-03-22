@@ -24,8 +24,8 @@
                     <div class="col-sm-5">
                         <p><strong><a href="{{ line.product.get_absolute_url }}">{{ line.description }}</a></strong></p>
                     </div>
-                    <div class="col-sm-1 price_color align-center"><strong>{% trans "Qty" %}</strong> {{ line.quantity }}</div>
-                    <div class="col-sm-3 price_color align-right">{{ line.unit_price_excl_tax|currency:request.basket.currency }}</div>
+                    <div class="col-sm-1 price_colr align-center"><strong>{% trans "Qty" %}</strong> {{ line.quantity }}</div>
+                    <div class="col-sm-3 price_colr align-right">{{ line.unit_price_excl_tax|currency:request.basket.currency }}</div>
                 </div>
             </li>
         {% endfor %}
