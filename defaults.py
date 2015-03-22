@@ -33,7 +33,7 @@ OSCAR_REQUIRED_ADDRESS_FIELDS = ('first_name', 'last_name', 'line1',
                                  'line4', 'postcode', 'country')
 
 # Product list settings
-OSCAR_PRODUCTS_PER_PAGE = 20
+OSCAR_PRODUCTS_PER_PAGE = 50
 
 # Checkout
 OSCAR_ALLOW_ANON_CHECKOUT = True
