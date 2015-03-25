@@ -389,7 +389,7 @@ font-size: 100px;
 
 .navbar {
     margin-bottom: 0px;
-    background-color: #2db4d8;
+    background-color: #21badc0;
     border-color: transparent;
     padding-top: 20px;
 }
@@ -550,7 +550,7 @@ margin-top: 25px;
 
 
 .dropdown-menu.scrolling {
-background-color: #2db4d8;
+background-color: #1badc0;
 }
 
 .basket-mini-item a {
@@ -635,4 +635,10 @@ color: #fff;
 }
 #id_q:focus {
     color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    .sect h1 {
+    font-size: 50px;
+    }
 }
