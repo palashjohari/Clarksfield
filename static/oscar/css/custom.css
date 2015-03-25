@@ -582,6 +582,7 @@ padding-right: 50px;
 }
 .footer_custom {
 padding-top: 20px;
+background-color: #303336;
 }
 li {
 list-style-type: none;
@@ -644,7 +645,13 @@ color: #fff;
 }
 
 @media screen and (max-width: 600px) {
-    .collapse {
+    .primary-collapse {
         margin-top: 70px;
     }
 }
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+    }
+}
+
