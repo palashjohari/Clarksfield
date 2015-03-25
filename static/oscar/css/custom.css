@@ -389,7 +389,7 @@ font-size: 100px;
 
 .navbar {
     margin-bottom: 0px;
-    background-color: #21badc0;
+    background-color: #1badc0;
     border-color: transparent;
     padding-top: 20px;
 }
@@ -640,5 +640,11 @@ color: #fff;
 @media screen and (max-width: 600px) {
     .sect h1 {
     font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .collapse {
+        margin-top: 70px;
     }
 }
