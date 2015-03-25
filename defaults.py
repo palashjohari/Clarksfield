@@ -30,7 +30,7 @@ OSCAR_UPLOAD_ROOT = '/tmp'
 
 # Address settings
 OSCAR_REQUIRED_ADDRESS_FIELDS = ('first_name', 'last_name', 'line1',
-                                 'line4', 'postcode', 'country')
+                                 'line4', 'postcode', 'country','phone_number')
 
 # Product list settings
 OSCAR_PRODUCTS_PER_PAGE = 50
