@@ -351,19 +351,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   padding: 0
 }
 
-.windows_clearfix:before,
-.windows_clearfix:after {
+.clearfix:before,
+.clearfix:after {
   content: " ";
   display: table
 }
 
-.windows_clearfix:after {
+.clearfix:after {
   clear: both
 }
 
-.windows_clearfix {
+.clearfix {
   *zoom: 1;
-  background-color: #bdbdbd;
 }
 
 
