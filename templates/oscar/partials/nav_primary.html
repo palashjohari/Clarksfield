@@ -38,6 +38,7 @@
 
             <ul class="nav navbar-nav navbar-right">
 
+
                 {% if user.is_authenticated %}
                     <li>
                         {% if num_unread_notifications > 0 %}
@@ -60,12 +61,13 @@
                 {% endif %}
 
             </ul>
-            {% block nav_dropdown %}
-            <ul class="pull-right">
+            <ul>
                 <li>
                     {% include "partials/search.html" %}
                 </li>
             </ul>
+            {% block nav_dropdown %}
+
                 <ul id="browse" class="nav navbar-nav">
                     <li class="dropdown active {% if expand_dropdown %}open{% endif %}">
                         <a href="#" class="dropdown-toggle" {% if not expand_dropdown %} data-toggle="dropdown"{% endif %}>
